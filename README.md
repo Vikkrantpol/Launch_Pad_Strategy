@@ -40,3 +40,12 @@ Final Portfolio Value: $150,315.46
 Total Profit/Loss: $50,315.46 (50.32%)
 Maximum Drawdown: -22.02%
 Sharpe Ratio: 0.89
+
+File Structure:
+sma-crossover-strategy/
+├── sma_crossover.py          # Backtesting script
+├── newdata1d.csv            # User-provided input data
+├── portfolio_value.png       # Portfolio value plot
+├── drawdown.png             # Drawdown plot
+├── live_trades.png          # Live trades plot
+├── README.md                # Documentation
