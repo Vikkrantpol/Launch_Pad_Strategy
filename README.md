@@ -41,7 +41,27 @@ Total Profit/Loss: $50,315.46 (50.32%)
 Maximum Drawdown: -22.02%
 Sharpe Ratio: 0.89
 
+## Output Plots
+
+The script generates three visualization plots to analyze the strategy's performance. These plots are saved as PNG files in the project directory and are included below for reference.
+
+1. **Portfolio Value Plot**  
+   Displays the portfolio value over time, with green triangles marking buy signals and red triangles marking sell signals.  
+   ![Portfolio Value Plot](![portfolio_value](https://github.com/user-attachments/assets/8ec75894-bf76-4828-a5b8-b29309482824)
+)
+
+2. **Drawdown Plot**  
+   Shows the percentage drawdown over time, highlighting periods of portfolio decline to assess risk.  
+   ![Drawdown Plot](![drawdown](https://github.com/user-attachments/assets/811550f1-4976-4167-a286-3d3a0631839c)
+)
+
+3. **Live Trades Plot**  
+   Tracks the number of concurrent trades over time, illustrating capital utilization.  
+   ![Live Trades Plot](![live_trades](https://github.com/user-attachments/assets/f54a083b-2419-4f8b-83e1-2dd272618f0b)
+)
+
 File Structure:
+
 sma-crossover-strategy/
 ├── sma_crossover.py          # Backtesting script
 ├── newdata1d.csv            # User-provided input data
