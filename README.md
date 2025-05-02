@@ -26,7 +26,7 @@ The same SMA Crossover Strategy (21, 50, 65 periods) was tested on TradingView u
 - **Total Profit/Loss**: $5,418,338.48 (541.84%)
 - **Maximum Drawdown**: $138,830.32 (4.13%)
 - **Profit Factor**: 9.505
-- 
+  
 ## Output Plots
 
 The script generates three visualization plots to analyze the strategy's performance. These plots are saved as PNG files in the project directory and are included below for reference.
@@ -42,6 +42,10 @@ The script generates three visualization plots to analyze the strategy's perform
 3. **Live Trades Plot**  
    Tracks the number of concurrent trades over time, illustrating capital utilization.  
    ![live_trades](https://github.com/user-attachments/assets/f54a083b-2419-4f8b-83e1-2dd272618f0b)
+   
+5. **TradingView Equity and Drawdown Plot**  
+   Shows the equity curve (cyan line) and drawdown (shaded area) for the SMA Crossover Strategy on a daily timeframe, with key metrics like Total P&L, Max Drawdown, and Profit        Factor displayed above the plot.
+   ![TradingView Results](<img width="1323" alt="Screenshot 2025-05-02 at 13 24 49" src="https://github.com/user-attachments/assets/9d0c94e3-25df-464d-91d4-7e76582f1c1c" />
 
 ## Features
 
