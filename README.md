@@ -26,3 +26,17 @@ Live Trades Plot: Tracks the number of active trades over time.
 Data Processing: Converts UNIX timestamps to datetime and sorts data chronologically.
 
 Output: Prints metrics to the console and saves plots as portfolio_value.png, drawdown.png, and live_trades.png.
+
+!Results:
+
+Backtest results on newdata1d.csv:
+
+Total Trades: 287
+Buy Trades: 171
+Sell Trades: 116
+Win Rate: 59.23%
+Initial Capital: $100,000
+Final Portfolio Value: $150,315.46
+Total Profit/Loss: $50,315.46 (50.32%)
+Maximum Drawdown: -22.02%
+Sharpe Ratio: 0.89
