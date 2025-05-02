@@ -6,7 +6,7 @@ The purpose is to assess the profitability and risk of the SMA crossover strateg
 
 ## Results:
 
-Backtest results on newdata1d.csv:
+Backtest results on newdata1d.csv: (Tested for daily timeframe) (Date since 29-Dec-2023)
 
 Total Trades: 287
 Buy Trades: 171
