@@ -49,10 +49,10 @@ The script generates three visualization plots to analyze the strategy's perform
 
 ## Features
 
-SMA Calculations: Calculates 21, 50, and 65-period Simple Moving Averages on closing prices to detect trends.
-Signal Generation: Triggers buy signals when 21 SMA > 50 SMA > 65 SMA (bullish trend) and sell signals when 65 SMA > 50 SMA > 21 SMA (bearish trend).
-Position Sizing: Allocates 4% of the initial $100,000 capital per trade to manage risk.
-Trade Limits: Restricts concurrent trades to 25, ensuring full capital utilization without over-leveraging.
+- SMA Calculations: Calculates 21, 50, and 65-period Simple Moving Averages on closing prices to detect trends.
+- Signal Generation: Triggers buy signals when 21 SMA > 50 SMA > 65 SMA (bullish trend) and sell signals when 65 SMA > 50 SMA > 21 SMA (bearish trend).
+- Position Sizing: Allocates 4% of the initial $100,000 capital per trade to manage risk.
+- Trade Limits: Restricts concurrent trades to 25, ensuring full capital utilization without over-leveraging.
 
 ## Backtesting Metrics:
 Total Trades: Tracks the number of buy and sell trades.
