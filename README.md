@@ -4,6 +4,20 @@ This project implements a Simple Moving Average (SMA) Crossover Strategy for bac
 
 The purpose is to assess the profitability and risk of the SMA crossover strategy through metrics like total profit/loss, win rate, maximum drawdown, and Sharpe ratio.
 
+## Results:
+
+Backtest results on newdata1d.csv:
+
+Total Trades: 287
+Buy Trades: 171
+Sell Trades: 116
+Win Rate: 59.23%
+Initial Capital: $100,000
+Final Portfolio Value: $150,315.46
+Total Profit/Loss: $50,315.46 (50.32%)
+Maximum Drawdown: -22.02%
+Sharpe Ratio: 0.89
+
 ## Output Plots
 
 The script generates three visualization plots to analyze the strategy's performance. These plots are saved as PNG files in the project directory and are included below for reference.
@@ -43,19 +57,7 @@ Data Processing: Converts UNIX timestamps to datetime and sorts data chronologic
 
 ## Output: Prints metrics to the console and saves plots as portfolio_value.png, drawdown.png, and live_trades.png.
 
-## Results:
 
-Backtest results on newdata1d.csv:
-
-Total Trades: 287
-Buy Trades: 171
-Sell Trades: 116
-Win Rate: 59.23%
-Initial Capital: $100,000
-Final Portfolio Value: $150,315.46
-Total Profit/Loss: $50,315.46 (50.32%)
-Maximum Drawdown: -22.02%
-Sharpe Ratio: 0.89
 
 
 
