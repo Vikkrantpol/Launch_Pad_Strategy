@@ -9,15 +9,15 @@ The purpose is to assess the profitability and risk of the SMA crossover strateg
 ### Python Script Results
 Backtest results on newdata1d.csv: (Tested for daily timeframe) (Date since 29-Dec-2023)
 
-Total Trades: 287
-Buy Trades: 171
-Sell Trades: 116
-Win Rate: 59.23%
-Initial Capital: $100,000
-Final Portfolio Value: $150,315.46
-Total Profit/Loss: $50,315.46 (50.32%)
-Maximum Drawdown: -22.02%
-Sharpe Ratio: 0.89
+- **Total Trades**: 287
+- **Buy Trades**: 171
+- **Sell Trades**: 116
+- **Win Rate**: 59.23%
+- **Initial Capital**: $100,000
+- **Final Portfolio Value**: $150,315.46
+- **Total Profit/Loss**: $50,315.46 (50.32%)
+- **Maximum Drawdown**: -22.02%
+- **Sharpe Ratio**: 0.89
 
 ### TradingView Results (Daily Timeframe)
 The same SMA Crossover Strategy (21, 50, 65 periods) was tested on TradingView using a daily timeframe, yielding the following results:
