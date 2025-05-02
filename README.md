@@ -45,7 +45,7 @@ The script generates three visualization plots to analyze the strategy's perform
    
 5. **TradingView Equity and Drawdown Plot**  
    Shows the equity curve (cyan line) and drawdown (shaded area) for the SMA Crossover Strategy on a daily timeframe, with key metrics like Total P&L, Max Drawdown, and Profit        Factor displayed above the plot.
-   ![TradingView Results](<img width="1323" alt="Screenshot 2025-05-02 at 13 24 49" src="https://github.com/user-attachments/assets/9d0c94e3-25df-464d-91d4-7e76582f1c1c" />)
+   ![TradingView Results](<img width="1323" alt="Screenshot 2025-05-02 at 13 24 49" src="https://github.com/user-attachments/assets/9d0c94e3-25df-464d-91d4-7e76582f1c1c" />
 
 ## Features
 
