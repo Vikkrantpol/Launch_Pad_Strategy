@@ -27,7 +27,7 @@ Data Processing: Converts UNIX timestamps to datetime and sorts data chronologic
 
 Output: Prints metrics to the console and saves plots as portfolio_value.png, drawdown.png, and live_trades.png.
 
-!Results:
+Results:
 
 Backtest results on newdata1d.csv:
 
