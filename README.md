@@ -1,4 +1,4 @@
-## SMA Crossover Strategy Backtest
+# SMA Crossover Strategy Backtest
 
 This project implements a Simple Moving Average (SMA) Crossover Strategy for backtesting on historical financial data. It generates buy and sell signals based on the crossover of three SMAs (21, 50, and 65 periods), incorporates position sizing and trade limits, and calculates performance metrics. The code processes daily data from a CSV file (e.g., newdata1d.csv), computes portfolio performance, and generates visualizations.
 
@@ -6,6 +6,7 @@ The purpose is to assess the profitability and risk of the SMA crossover strateg
 
 ## Results:
 
+### Python Script Results
 Backtest results on newdata1d.csv: (Tested for daily timeframe) (Date since 29-Dec-2023)
 
 Total Trades: 287
@@ -18,6 +19,14 @@ Total Profit/Loss: $50,315.46 (50.32%)
 Maximum Drawdown: -22.02%
 Sharpe Ratio: 0.89
 
+### TradingView Results (Daily Timeframe)
+The same SMA Crossover Strategy (21, 50, 65 periods) was tested on TradingView using a daily timeframe, yielding the following results:
+- **Total Trades**: 58
+- **Profitable Trades**: 39.66% (23/58 trades)
+- **Total Profit/Loss**: $5,418,338.48 (541.84%)
+- **Maximum Drawdown**: $138,830.32 (4.13%)
+- **Profit Factor**: 9.505
+- 
 ## Output Plots
 
 The script generates three visualization plots to analyze the strategy's performance. These plots are saved as PNG files in the project directory and are included below for reference.
