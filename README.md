@@ -15,6 +15,13 @@ The backtest was conducted on daily DOGE price data with an initial capital of $
 - Total Profit/Loss: $663,508.47 (663.51%)
 - Maximum Drawdown: -29.91%
 - Sharpe Ratio: 2.13
+## The strategy was also validated on TradingView using Pine Script on the DOGE daily timeframe, covering the entire historical data from the initial period, yielding:
+
+- Total Profit: 1007.59%
+- Profitable Trades: 29%
+- Profit Factor: 15.23
+- Total Trades: 55
+<img width="1317" alt="Screenshot 2025-05-11 at 11 56 28" src="https://github.com/user-attachments/assets/f4feb475-e863-42b9-92f2-f7e4e01d74dc" />
 
 ## Visualizations
 
